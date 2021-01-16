@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "90e9fcdd-89b8-477c-86aa-fd9472bd3df9",
+		"_postman_id": "3dddcabb-d406-4e4d-9b75-a1e0c8d1ea89",
 		"name": "Crud basic client",
 		"description": "# Introdução\nExemplo simples do consumo do crud Cliente.\n\n# Autenticação\nNão é necessário.\n\n",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
@@ -55,10 +55,6 @@
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "/clients?page=0&linesPerPage=6&direction=ASC&orderBy=name\n",
 							"path": [
@@ -84,8 +80,8 @@
 							]
 						}
 					},
-					"_postman_previewlanguage": null,
-					"header": null,
+					"_postman_previewlanguage": "Text",
+					"header": [],
 					"cookie": [],
 					"body": ""
 				}
@@ -123,10 +119,6 @@
 					"originalRequest": {
 						"method": "GET",
 						"header": [],
-						"body": {
-							"mode": "raw",
-							"raw": ""
-						},
 						"url": {
 							"raw": "/clients/{id}\n",
 							"path": [
@@ -135,8 +127,8 @@
 							]
 						}
 					},
-					"_postman_previewlanguage": null,
-					"header": null,
+					"_postman_previewlanguage": "Text",
+					"header": [],
 					"cookie": [],
 					"body": ""
 				}
@@ -186,8 +178,8 @@
 							]
 						}
 					},
-					"_postman_previewlanguage": null,
-					"header": null,
+					"_postman_previewlanguage": "Text",
+					"header": [],
 					"cookie": [],
 					"body": ""
 				}
@@ -239,8 +231,8 @@
 							]
 						}
 					},
-					"_postman_previewlanguage": null,
-					"header": null,
+					"_postman_previewlanguage": "Text",
+					"header": [],
 					"cookie": [],
 					"body": ""
 				}
@@ -256,7 +248,7 @@
 					"raw": ""
 				},
 				"url": {
-					"raw": "http://localhost:8080/clients/{id}\n",
+					"raw": "http://localhost:8080/clients/6",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -264,7 +256,7 @@
 					"port": "8080",
 					"path": [
 						"clients",
-						"{id}\n"
+						"6"
 					]
 				},
 				"description": "Deletar cliente"
@@ -287,8 +279,8 @@
 							]
 						}
 					},
-					"_postman_previewlanguage": null,
-					"header": null,
+					"_postman_previewlanguage": "Text",
+					"header": [],
 					"cookie": [],
 					"body": ""
 				}
