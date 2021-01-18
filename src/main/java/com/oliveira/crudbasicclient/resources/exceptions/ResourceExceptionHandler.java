@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 import com.oliveira.crudbasicclient.services.exceptions.DataBaseException;
 import com.oliveira.crudbasicclient.services.exceptions.ResourceNotFoundException;
-
+//issue #2
 @ControllerAdvice
 public class ResourceExceptionHandler {
 	
